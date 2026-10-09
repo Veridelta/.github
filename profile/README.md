@@ -8,9 +8,9 @@
 
 Veridelta compares two datasets on their primary keys and reports every row that differs under the rules you declare. Nothing is forgiven unless a rule says so, and the exit code tells CI whether the datasets match.
 
-[![A frame of the two-minute demo, with a play button. veridelta suggest proposes a rule for letter case, rounding, and missing notes, each with how many differing rows it explains.](https://raw.githubusercontent.com/Veridelta/veridelta-media/main/posters/demo-120-poster.png)](https://github.com/Veridelta/veridelta-media/releases/tag/demo-120)
+[![A frame of the three-minute demo, with a play button. veridelta suggest proposes a rule for letter case, rounding, and missing notes, each with how many differing rows it explains.](https://raw.githubusercontent.com/Veridelta/veridelta-media/main/posters/demo-120-poster.png)](https://github.com/Veridelta/veridelta-media/releases/tag/demo-120)
 
-[Watch the two-minute demo](https://github.com/Veridelta/veridelta-media/releases/tag/demo-120): a rewrite of 40 accounts looks broken, Veridelta explains the noise with evidence, and the one real defect still fails the run.
+[Watch the three-minute demo](https://github.com/Veridelta/veridelta-media/releases/tag/demo-120): Sam rewrites a nightly export of 40 accounts, Veridelta explains the noise with evidence, the one real defect fails his pull request, and the fixed export passes.
 
 ```bash
 pip install veridelta
